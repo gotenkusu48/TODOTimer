@@ -26,7 +26,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\HelloWorldApp.Windows.exe">
       <PackagePath>HelloWorldApp.Windows.exe</PackagePath>
-      <Modified>2015-07-05T08:37:45.896</Modified>
+      <Modified>2015-07-05T08:47:54.074</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Prism.Mvvm.1.1.1\lib\windows8\Microsoft.Practices.Prism.Mvvm.dll">
       <PackagePath>Microsoft.Practices.Prism.Mvvm.dll</PackagePath>
@@ -102,15 +102,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\Views\MainPage.xbf">
       <PackagePath>Views\MainPage.xbf</PackagePath>
-      <Modified>2015-07-05T08:37:45.224</Modified>
+      <Modified>2015-07-05T08:47:53.010</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\HelloWorldApp.Windows.xr.xml">
       <PackagePath>HelloWorldApp.Windows.xr.xml</PackagePath>
-      <Modified>2015-07-05T08:37:45.181</Modified>
+      <Modified>2015-07-05T08:47:52.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-07-05T08:37:46.301</Modified>
+      <Modified>2015-07-05T08:47:55.211</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
