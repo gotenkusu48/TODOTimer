@@ -1,4 +1,17 @@
 <XamlCompilerSaveState>
   <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\helloworldapp\helloworldapp.windowsphone\obj\debug\intermediatexaml\helloworldapp.windowsphone.exe" HashGuid="a0cb5ec1-f81e-c268-d0b9-60e8eab8cc53" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\prism.mvvm.1.1.1\lib\wpa81\microsoft.practices.prism.mvvm.dll" HashGuid="cbdd458f-3f7b-91dd-175a-6fbe0d8f860e" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\prism.mvvm.1.1.1\lib\wpa81\microsoft.practices.prism.mvvm.phone.dll" HashGuid="347692ae-d3bb-41c8-00a0-1222d3d82e87" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\prism.mvvm.1.1.1\lib\wpa81\microsoft.practices.prism.sharedinterfaces.dll" HashGuid="77ddb96d-234e-bbe6-7043-530fe79bc489" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\prism.storeapps.2.0.0\lib\wpa81\microsoft.practices.prism.storeapps.dll" HashGuid="480782f1-e4b6-714d-0927-945a03634ad1" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\prism.storeapps.2.0.0\lib\wpa81\microsoft.practices.prism.storeapps.phone.dll" HashGuid="aa6e2f7a-71df-e1ca-7524-7ca1d4a1bf08" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\reactiveproperty.2.2.1\lib\wpa81\reactiveproperty.dataannotations.dll" HashGuid="149390d3-df04-8403-8b03-f010fbfe8014" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\reactiveproperty.2.2.1\lib\wpa81\reactiveproperty.dll" HashGuid="bdb057d4-61e4-2d1d-798a-cfc1ff68a6a8" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\reactiveproperty.2.2.1\lib\wpa81\reactiveproperty.wpa81.dll" HashGuid="3af998b9-881c-24c7-0b6f-5f5cd5a0f8d6" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\rx-core.2.2.5\lib\portable-win81+wpa81\system.reactive.core.dll" HashGuid="e88ff990-7aa8-b77f-93a1-598ee1f64e5f" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\rx-interfaces.2.2.5\lib\portable-win81+wpa81\system.reactive.interfaces.dll" HashGuid="2fd855ee-8440-f81f-a427-ceb8eb15ce8f" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\rx-linq.2.2.5\lib\portable-win81+wpa81\system.reactive.linq.dll" HashGuid="415e3b50-c164-f753-1f27-a0a2efe20748" />
+    <ReferenceAssembly PathName="c:\users\taro\documents\todotimer\ユニバーサルwindowsアプリでpri1\packages\rx-platformservices.2.2.5\lib\portable-win81+wpa81\system.reactive.platformservices.dll" HashGuid="af6ba9ad-5f77-bdaa-1d18-22248e6f3c99" />
   </ReferenceAssemblyList>
 </XamlCompilerSaveState>

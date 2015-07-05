@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HOME</Machine>
+    <WindowsUser>taro</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>41dc0c83-8775-4fe8-ad8b-88904d86d311</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\HelloWorldApp.Windows.exe">
+      <PackagePath>HelloWorldApp.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Prism.Mvvm.1.1.1\lib\windows8\Microsoft.Practices.Prism.Mvvm.dll">
+      <PackagePath>Microsoft.Practices.Prism.Mvvm.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Prism.Mvvm.1.1.1\lib\windows8\Microsoft.Practices.Prism.Mvvm.Store.dll">
+      <PackagePath>Microsoft.Practices.Prism.Mvvm.Store.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Prism.Mvvm.1.1.1\lib\windows8\Microsoft.Practices.Prism.SharedInterfaces.dll">
+      <PackagePath>Microsoft.Practices.Prism.SharedInterfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Prism.StoreApps.2.0.0\lib\windows8\Microsoft.Practices.Prism.StoreApps.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Prism.StoreApps.2.0.0\lib\windows8\Microsoft.Practices.Prism.StoreApps.Windows.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\ReactiveProperty.2.2.1\lib\win81\ReactiveProperty.DataAnnotations.dll">
+      <PackagePath>ReactiveProperty.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\ReactiveProperty.2.2.1\lib\win81\ReactiveProperty.dll">
+      <PackagePath>ReactiveProperty.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\ReactiveProperty.2.2.1\lib\win81\ReactiveProperty.WinRT.dll">
+      <PackagePath>ReactiveProperty.WinRT.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Rx-Core.2.2.5\lib\windows8\System.Reactive.Core.dll">
+      <PackagePath>System.Reactive.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Rx-Interfaces.2.2.5\lib\windows8\System.Reactive.Interfaces.dll">
+      <PackagePath>System.Reactive.Interfaces.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Rx-Linq.2.2.5\lib\windows8\System.Reactive.Linq.dll">
+      <PackagePath>System.Reactive.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\packages\Rx-PlatformServices.2.2.5\lib\windows8\System.Reactive.PlatformServices.dll">
+      <PackagePath>System.Reactive.PlatformServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\Views\MainPage.xbf">
+      <PackagePath>Views\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\HelloWorldApp.Windows.xr.xml">
+      <PackagePath>HelloWorldApp.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

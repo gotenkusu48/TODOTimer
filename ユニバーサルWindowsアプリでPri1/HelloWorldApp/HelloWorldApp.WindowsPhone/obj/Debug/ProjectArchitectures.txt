@@ -1,0 +1,1 @@
+C:\Users\taro\Documents\TODOTimer\ユニバーサルWindowsアプリでPri1\HelloWorldApp\HelloWorldApp.WindowsPhone\HelloWorldApp.WindowsPhone.csproj;neutral
