@@ -124,7 +124,7 @@ namespace HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[13];
+            _typeNameTable = new string[11];
             _typeNameTable[0] = "Microsoft.Practices.Prism.Mvvm.MvvmAppBase";
             _typeNameTable[1] = "Windows.UI.Xaml.Application";
             _typeNameTable[2] = "Boolean";
@@ -135,11 +135,9 @@ namespace HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo
             _typeNameTable[7] = "Microsoft.Practices.Prism.Commands.DelegateCommand";
             _typeNameTable[8] = "Microsoft.Practices.Prism.Commands.DelegateCommandBase";
             _typeNameTable[9] = "Object";
-            _typeNameTable[10] = "Microsoft.Practices.Prism.Mvvm.ViewModelLocator";
-            _typeNameTable[11] = "Windows.UI.Xaml.DependencyObject";
-            _typeNameTable[12] = "HelloWorldApp.Views.MainPage";
+            _typeNameTable[10] = "HelloWorldApp.Views.MainPage";
 
-            _typeTable = new global::System.Type[13];
+            _typeTable = new global::System.Type[11];
             _typeTable[0] = typeof(global::Microsoft.Practices.Prism.Mvvm.MvvmAppBase);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Application);
             _typeTable[2] = typeof(global::System.Boolean);
@@ -150,9 +148,7 @@ namespace HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo
             _typeTable[7] = typeof(global::Microsoft.Practices.Prism.Commands.DelegateCommand);
             _typeTable[8] = typeof(global::Microsoft.Practices.Prism.Commands.DelegateCommandBase);
             _typeTable[9] = typeof(global::System.Object);
-            _typeTable[10] = typeof(global::Microsoft.Practices.Prism.Mvvm.ViewModelLocator);
-            _typeTable[11] = typeof(global::Windows.UI.Xaml.DependencyObject);
-            _typeTable[12] = typeof(global::HelloWorldApp.Views.MainPage);
+            _typeTable[10] = typeof(global::HelloWorldApp.Views.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -188,7 +184,7 @@ namespace HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo
         }
 
         private object Activate_3_VisualStateAwarePage() { return new global::Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage(); }
-        private object Activate_12_MainPage() { return new global::HelloWorldApp.Views.MainPage(); }
+        private object Activate_10_MainPage() { return new global::HelloWorldApp.Views.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -249,19 +245,9 @@ namespace HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo
                 xamlType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 10:   //  Microsoft.Practices.Prism.Mvvm.ViewModelLocator
-                userType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
-                userType.AddMemberName("AutoWireViewModel");
-                xamlType = userType;
-                break;
-
-            case 11:   //  Windows.UI.Xaml.DependencyObject
-                xamlType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 12:   //  HelloWorldApp.Views.MainPage
+            case 10:   //  HelloWorldApp.Views.MainPage
                 userType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage"));
-                userType.Activator = Activate_12_MainPage;
+                userType.Activator = Activate_10_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -295,14 +281,6 @@ namespace HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo
             var that = (global::Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage)instance;
             that.GoBackCommand = (global::Microsoft.Practices.Prism.Commands.DelegateCommand)Value;
         }
-        private object get_3_ViewModelLocator_AutoWireViewModel(object instance)
-        {
-            return global::Microsoft.Practices.Prism.Mvvm.ViewModelLocator.GetAutoWireViewModel((global::Windows.UI.Xaml.DependencyObject)instance);
-        }
-        private void set_3_ViewModelLocator_AutoWireViewModel(object instance, object Value)
-        {
-            global::Microsoft.Practices.Prism.Mvvm.ViewModelLocator.SetAutoWireViewModel((global::Windows.UI.Xaml.DependencyObject)instance, (global::System.Boolean)Value);
-        }
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
@@ -328,14 +306,6 @@ namespace HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo
                 xamlMember = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlMember(this, "GoBackCommand", "Microsoft.Practices.Prism.Commands.DelegateCommand");
                 xamlMember.Getter = get_2_VisualStateAwarePage_GoBackCommand;
                 xamlMember.Setter = set_2_VisualStateAwarePage_GoBackCommand;
-                break;
-            case "Microsoft.Practices.Prism.Mvvm.ViewModelLocator.AutoWireViewModel":
-                userType = (global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Practices.Prism.Mvvm.ViewModelLocator");
-                xamlMember = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlMember(this, "AutoWireViewModel", "Boolean");
-                xamlMember.SetTargetTypeName("Windows.UI.Xaml.DependencyObject");
-                xamlMember.SetIsAttachable();
-                xamlMember.Getter = get_3_ViewModelLocator_AutoWireViewModel;
-                xamlMember.Setter = set_3_ViewModelLocator_AutoWireViewModel;
                 break;
             }
             return xamlMember;

@@ -9,10 +9,6 @@
     <RootType FullName="Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage">
       <RootProperty Name="Content" />
     </RootType>
-    <RootType FullName="Microsoft.Practices.Prism.Mvvm.ViewModelLocator">
-      <RootMethod Name="GetAutoWireViewModel" />
-      <RootMethod Name="SetAutoWireViewModel" />
-    </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Background" />
       <RootProperty Name="Children" />
