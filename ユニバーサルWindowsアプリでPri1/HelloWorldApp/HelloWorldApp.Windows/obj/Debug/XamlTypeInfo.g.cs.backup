@@ -13,13 +13,13 @@ namespace HelloWorldApp
 {
     public partial class App : global::Windows.UI.Xaml.Markup.IXamlMetadataProvider
     {
-        private global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        private global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlTypeInfoProvider _provider;
 
         public global::Windows.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
             if(_provider == null)
             {
-                _provider = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByType(type);
         }
@@ -28,7 +28,7 @@ namespace HelloWorldApp
         {
             if(_provider == null)
             {
-                _provider = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider();
+                _provider = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlTypeInfoProvider();
             }
             return _provider.GetXamlTypeByName(fullName);
         }
@@ -40,7 +40,7 @@ namespace HelloWorldApp
     }
 }
 
-namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
+namespace HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo
 {
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
@@ -188,8 +188,8 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
-            global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType xamlType = null;
-            global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType userType;
+            global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType xamlType = null;
+            global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType userType;
             string typeName = _typeNameTable[typeIndex];
             global::System.Type type = _typeTable[typeIndex];
 
@@ -197,21 +197,21 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
             {
 
             case 0:   //  Microsoft.Practices.Prism.Mvvm.MvvmAppBase
-                userType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Application"));
+                userType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Application"));
                 userType.AddMemberName("IsSuspending");
                 xamlType = userType;
                 break;
 
             case 1:   //  Windows.UI.Xaml.Application
-                xamlType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 2:   //  Boolean
-                xamlType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 3:   //  Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage
-                userType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
                 userType.Activator = Activate_3_VisualStateAwarePage;
                 userType.AddMemberName("MinimalLayoutWidth");
                 userType.AddMemberName("GoBackCommand");
@@ -219,34 +219,34 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
                 break;
 
             case 4:   //  Windows.UI.Xaml.Controls.Page
-                xamlType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 5:   //  Windows.UI.Xaml.Controls.UserControl
-                xamlType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 6:   //  Int32
-                xamlType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 7:   //  Microsoft.Practices.Prism.Commands.DelegateCommand
-                userType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Practices.Prism.Commands.DelegateCommandBase"));
+                userType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Practices.Prism.Commands.DelegateCommandBase"));
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
             case 8:   //  Microsoft.Practices.Prism.Commands.DelegateCommandBase
-                userType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
                 xamlType = userType;
                 break;
 
             case 9:   //  Object
-                xamlType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                xamlType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
             case 10:   //  HelloWorldApp.Views.MainPage
-                userType = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage"));
+                userType = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage"));
                 userType.Activator = Activate_10_MainPage;
                 userType.SetIsLocalType();
                 xamlType = userType;
@@ -284,26 +284,26 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
 
         private global::Windows.UI.Xaml.Markup.IXamlMember CreateXamlMember(string longMemberName)
         {
-            global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlMember xamlMember = null;
-            global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType userType;
+            global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlMember xamlMember = null;
+            global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType userType;
 
             switch (longMemberName)
             {
             case "Microsoft.Practices.Prism.Mvvm.MvvmAppBase.IsSuspending":
-                userType = (global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Practices.Prism.Mvvm.MvvmAppBase");
-                xamlMember = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlMember(this, "IsSuspending", "Boolean");
+                userType = (global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Practices.Prism.Mvvm.MvvmAppBase");
+                xamlMember = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlMember(this, "IsSuspending", "Boolean");
                 xamlMember.Getter = get_0_MvvmAppBase_IsSuspending;
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage.MinimalLayoutWidth":
-                userType = (global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage");
-                xamlMember = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlMember(this, "MinimalLayoutWidth", "Int32");
+                userType = (global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage");
+                xamlMember = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlMember(this, "MinimalLayoutWidth", "Int32");
                 xamlMember.Getter = get_1_VisualStateAwarePage_MinimalLayoutWidth;
                 xamlMember.Setter = set_1_VisualStateAwarePage_MinimalLayoutWidth;
                 break;
             case "Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage.GoBackCommand":
-                userType = (global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage");
-                xamlMember = new global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlMember(this, "GoBackCommand", "Microsoft.Practices.Prism.Commands.DelegateCommand");
+                userType = (global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.Practices.Prism.StoreApps.VisualStateAwarePage");
+                xamlMember = new global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlMember(this, "GoBackCommand", "Microsoft.Practices.Prism.Commands.DelegateCommand");
                 xamlMember.Getter = get_2_VisualStateAwarePage_GoBackCommand;
                 xamlMember.Setter = set_2_VisualStateAwarePage_GoBackCommand;
                 break;
@@ -363,9 +363,9 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.Windows.UI.Xaml.Build.Tasks", "4.0.0.0")]    
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    internal class XamlUserType : global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlSystemBaseType
+    internal class XamlUserType : global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlSystemBaseType
     {
-        global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlTypeInfoProvider _provider;
         global::Windows.UI.Xaml.Markup.IXamlType _baseType;
         bool _isArray;
         bool _isMarkupExtension;
@@ -379,7 +379,7 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
         global::System.Collections.Generic.Dictionary<string, string> _memberNames;
         global::System.Collections.Generic.Dictionary<string, object> _enumValues;
 
-        public XamlUserType(global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
+        public XamlUserType(global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlTypeInfoProvider provider, string fullName, global::System.Type fullType, global::Windows.UI.Xaml.Markup.IXamlType baseType)
             :base(fullName, fullType)
         {
             _provider = provider;
@@ -572,7 +572,7 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
     [System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal class XamlMember : global::Windows.UI.Xaml.Markup.IXamlMember
     {
-        global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider _provider;
+        global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlTypeInfoProvider _provider;
         string _name;
         bool _isAttachable;
         bool _isDependencyProperty;
@@ -581,7 +581,7 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
         string _typeName;
         string _targetTypeName;
 
-        public XamlMember(global::HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
+        public XamlMember(global::HelloWorldApp.HelloWorldApp_Windows_XamlTypeInfo.XamlTypeInfoProvider provider, string name, string typeName)
         {
             _name = name;
             _typeName = typeName;
@@ -632,6 +632,5 @@ namespace HelloWorldApp.HelloWorldApp_WindowsPhone_XamlTypeInfo
         }
     }
 }
-
 
 

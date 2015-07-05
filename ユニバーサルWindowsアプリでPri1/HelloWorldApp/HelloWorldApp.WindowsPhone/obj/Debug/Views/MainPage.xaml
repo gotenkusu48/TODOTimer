@@ -8,9 +8,31 @@
     xmlns:prism="using:Microsoft.Practices.Prism.StoreApps"
     xmlns:mvvm="using:Microsoft.Practices.Prism.Mvvm"
     mc:Ignorable="d">
+    <prism:VisualStateAwarePage.BottomAppBar>
+        <CommandBar>
+            <AppBarButton Icon="AllApps" Label="一覧"/>
+            <AppBarButton Icon="Add" Label="追加"/>
+        </CommandBar>
+    </prism:VisualStateAwarePage.BottomAppBar>
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Text="{Binding Message.Value}" Style="{StaticResource BodyTextBlockStyle}" />
+        <ListView 
+                        AutomationProperties.AutomationId="ItemListViewSection4"
+                        AutomationProperties.Name="Items In Group"
+                        SelectionMode="None"
+                        IsItemClickEnabled="True"
+                        ItemsSource="{Binding CateCollection}"
+
+                        ContinuumNavigationTransitionInfo.ExitElementContainer="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="0,0,0,19">
+                        <TextBlock Text="{Binding Title}" Style="{ThemeResource ListViewItemTextBlockStyle}"/>
+                        <TextBlock Text="{Binding Subtitle}" Style="{ThemeResource ListViewItemSubheaderTextBlockStyle}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
     </Grid>
 </prism:VisualStateAwarePage>
 
